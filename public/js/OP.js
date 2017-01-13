@@ -22,6 +22,7 @@
   const ERROR = 'ERROR';
   const REGISTER = 'REGISTER';
   const REGISTERACK = 'REGISTERACK';
+  const CHAT = 'CHAT';
   /*
    * the module
    */
@@ -30,7 +31,8 @@
     parse,
     ERROR,
     REGISTER,
-    REGISTERACK
+    REGISTERACK,
+    CHAT
   };
 
   /* Make this module available to Node and Browser */
